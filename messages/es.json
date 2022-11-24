@@ -5,5 +5,10 @@
   "admin-example.navigation.details.search.kws": "detalhe, mock, test, oi",
   "admin-example.navigation.table.search.kws": "tabela, mock, test, tchau",
   "admin-example.hello-world": "Admin de ejemplo",
-  "admin-example.details": "Página de detalles"
+  "admin-example.details": "Página de detalles",
+
+  "admin-example.empty-title": "No se encontraron resultados",
+  "admin-example.empty-description": "No se encontraron resultados para la búsqueda",
+  "admin-example.nice-button": "Botón bonito",
+  "admin-example.nice-message": "Hola, este es un mensaje bonito"
 }

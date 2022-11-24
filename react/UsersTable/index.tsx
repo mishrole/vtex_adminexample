@@ -1,13 +1,13 @@
+import faker from 'faker'
 import React, { Component, Fragment } from 'react'
+import { withRuntimeContext } from 'vtex.render-runtime'
 import {
-  Table,
-  IconArrowUp,
   IconArrowDown,
+  IconArrowUp,
   IconShoppingCart,
   Input,
+  Table,
 } from 'vtex.styleguide'
-import faker from 'faker'
-import { withRuntimeContext } from 'vtex.render-runtime'
 
 const EXAMPLE_LENGTH = 100
 const MOCKED_DATA = [...Array(EXAMPLE_LENGTH)].map(() => ({

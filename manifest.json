@@ -9,7 +9,10 @@
     "postreleasy": "vtex publish"
   },
   "dependencies": {
-    "vtex.styleguide": "9.x"
+    "vtex.styleguide": "9.x",
+    "vtex.catalog-graphql": "1.x",
+    "vtex.search-resolver": "0.x",
+    "vtex.store-graphql": "2.x"
   },
   "builders": {
     "react": "3.x",

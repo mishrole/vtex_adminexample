@@ -2,9 +2,9 @@ import React, { FC } from 'react'
 import { FormattedMessage } from 'react-intl'
 import { Layout, PageBlock, PageHeader } from 'vtex.styleguide'
 
-import UsersTable from './UsersTable'
-
+import ProductsTable from './containers/ProductsTable'
 import './styles.global.css'
+// import UsersTable from './UsersTable'
 
 const AdminExample: FC = () => {
   return (
@@ -16,7 +16,8 @@ const AdminExample: FC = () => {
       }
     >
       <PageBlock variation="full">
-        <UsersTable />
+        <ProductsTable params="1" />
+        {/* <UsersTable /> */}
       </PageBlock>
     </Layout>
   )

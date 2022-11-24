@@ -20,5 +20,6 @@
       "directory": "node",
       "changeProcessCWD": true
     }
-  ]
+  ],
+  "cSpell.words": ["styleguide", "vtex"]
 }
